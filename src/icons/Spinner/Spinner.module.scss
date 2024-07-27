@@ -1,0 +1,13 @@
+$spinner-animation-speed: 2s;
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    } to {
+        transform: rotate(360deg);
+    }
+}
+
+.spinner {
+    animation: spin $spinner-animation-speed linear infinite;
+}
