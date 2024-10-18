@@ -21,7 +21,7 @@ const Ribbon = (props: Props) => {
         return styles["right-bottom"];
       default:
         return styles["right-bottom"];
-    };
+    }
   };
 
   const composeBaseColourClassName = () => {
