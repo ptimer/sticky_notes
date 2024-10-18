@@ -1,30 +1,24 @@
-# React + TypeScript + Vite
+# Sticky-notes-app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+Simple note-taking app built with React and using Appwrite for data storage. Users can create, delete, and edit notes, drag them around the screen, and change their colors to keep things organized.
 
-Currently, two official plugins are available:
+![Homepage preview of demo page](public/sticky-notes-preview.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Live Preview](https://ptimer.github.io/sticky_notes/)
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+To set up the project, navigate to the root folder and run the following command to install dependencies:
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```bash
+npm install
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Usage
+
+After installing dependencies, start the server using the following command:
+
+```bash
+npm run dev
+```
